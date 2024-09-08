@@ -1,4 +1,4 @@
-const zig = [
+export const zig = [
     { regex: /"(?:[^"\\]|\\.)*"/g, className: 'string' },
     { regex: /'([^'\\]|\\.)'/g, className: 'char' },
     { regex: /\\\\.*$/gm, className: 'string' },

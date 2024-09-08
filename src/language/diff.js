@@ -1,4 +1,4 @@
-const diff = [
+export const diff = [
     { regex: /"(?:[^"\\]|\\.)*"/g, className: 'string' },
     { regex: /'([^'\\]|\\.)'/g, className: 'char' },
     { regex: /\\\\.*$/gm, className: 'string' },

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/higherlight@0.0.15/src/styles/darkMode.css">
+</head>
+
+<body>
+    <div class="language-zig">
+        const x = "asdf";
+    </div>
+    <script type="module">
+        import {highlightElements} from "https://cdn.jsdelivr.net/npm/higherlight@0.0.15";
+        import {zig} from "https://cdn.jsdelivr.net/npm/higherlight@0.0.15/src/language/zig.js";
+        highlightElements(zig, "language-zig");
+    </script>
+</body>
+
+</html>

@@ -1,5 +1,7 @@
-import higherlight from "higherlight";
+import * as hl from "higherlight";
+import { zig } from "higherlight/src/language/zig";
 
-function test() {
-    higherlight.highlight()
-}
+const highlightedCode = hl.highlight(zig, "const x = 'asdf';");
+console.log(highlightedCode);
+
+

@@ -1,4 +1,4 @@
-const bash = [
+export const bash = [
     { regex: /"(?:[^"\\]|\\.)*"/g, className: 'string' },
     { regex: /'([^'\\]|\\.)'/g, className: 'char' },
     { regex: /\\\\.*$/gm, className: 'string' },

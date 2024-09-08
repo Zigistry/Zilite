@@ -37,7 +37,7 @@ export function highlightElements(language, className) {
  * @param {{regex: RegExp;className: string;}[]} language 
  * @param {string} id 
  */
-export function highlightElements(language, id) {
+export function highlightElement(language, id) {
     const codeContainer = document.getElementById(id);
     const codeContent = codeContainer.innerHTML;
     const highlightedContent = highlight(language, codeContent);
