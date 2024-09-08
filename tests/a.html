@@ -3,16 +3,18 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/higherlight@0.0.15/src/styles/darkMode.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/zilite@0.0.2/src/styles/darkMode.css">
+    <style>
+    </style>
 </head>
 
 <body>
     <div class="language-zig">
-        const x = "asdf";
+        const Zilite:[]const u8 = "Syntax Highlighter";
     </div>
     <script type="module">
-        import {highlightElements} from "https://cdn.jsdelivr.net/npm/higherlight@0.0.2";
-        import {zig} from "https://cdn.jsdelivr.net/npm/higherlight@0.0.2/src/language/zig.js";
+        import { highlightElements } from "https://cdn.jsdelivr.net/npm/zilite@0.0.2";
+        import { zig } from "https://cdn.jsdelivr.net/npm/zilite@0.0.2/src/language/zig.js";
         highlightElements(zig, "language-zig");
     </script>
 </body>
