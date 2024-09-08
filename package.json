@@ -8,19 +8,17 @@
         "syntax",
         "highlight"
     ],
+    "types": "src/zilite.d.ts",
     "files": [
         "src/index.js",
         "src/language/bash.js",
         "src/language/zig.js",
         "src/language/diff.js",
-        "src/language/z2j.d.ts"
+        "src/zilite.d.ts"
     ],
     "license": "AGPL-3.0-only",
     "description": "An easy to use syntax highlighter for the web.",
     "readme": "README.md",
     "main": "src/index.js",
-    "version": "v0.0.25",
-    "dependencies": {
-        "zilite": "^0.0.25"
-    }
+    "version": "v0.0.26"
 }
