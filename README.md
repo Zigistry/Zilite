@@ -11,7 +11,9 @@
 - Is extremely small size.
 
 ## How to use?
-[Follow these 5 steps](./docs/main.md)
+Just see the following example:
+
+
 
 ## Contributing:
 
