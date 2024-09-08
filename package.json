@@ -20,5 +20,6 @@
     "description": "An easy to use syntax highlighter for the web.",
     "readme": "README.md",
     "main": "src/index.js",
-    "version": "v0.0.26"
+    "version": "v0.0.27",
+    "type":"module"
 }
