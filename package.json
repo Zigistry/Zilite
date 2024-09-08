@@ -8,6 +8,13 @@
         "syntax",
         "highlight"
     ],
+    "files": [
+        "src/index.js",
+        "src/language/bash.js",
+        "src/language/zig.js",
+        "src/language/diff.js",
+        "src/language/z2j.d.ts"
+    ],
     "license": "AGPL-3.0-only",
     "description": "An easy to use syntax highlighter for the web.",
     "readme": "README.md",
