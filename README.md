@@ -1,6 +1,6 @@
 <center>
 
-![](./assets/logo.png)
+![](https://raw.githubusercontent.com/Zigistry/Zilite/main/assets/logo.png)
 
 </center>
 
