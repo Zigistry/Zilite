@@ -1,4 +1,3 @@
-
 /**
  * 
  * @param {{regex: RegExp;className: string;}[]} language is the pattern input
