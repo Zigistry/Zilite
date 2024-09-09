@@ -1,9 +1,3 @@
-/**
- * 
- * @param {{regex: RegExp;className: string;}[]} language is the pattern input
- * @param {string} content is the code that needs to be highlighted input
- * @returns {string} is the output code.
- */
 export function highlight(language, content) {
     content = content.replace(/ /g, "±±§§±±§§")
         .replace(/=/g, "±§±§±§±§");
@@ -15,14 +9,6 @@ export function highlight(language, content) {
         .replace(/\n/g, "<br/>");
     return content;
 }
-
-/**
- * 
- * @param {{regex: RegExp;className: string;}[]} language is the pattern input
- * @param {string} content is the code that needs to be highlighted input
- * @param {string} className is the black inside which the code is present.
- * @returns {void}
- */
 export function highlightElements(language, className) {
     const codeContainers = document.getElementsByClassName(className);
     for (let pre of codeContainers) {
@@ -31,12 +17,6 @@ export function highlightElements(language, className) {
         pre.innerHTML = highlightedContent;
     }
 }
-
-/**
- * 
- * @param {{regex: RegExp;className: string;}[]} language 
- * @param {string} id 
- */
 export function highlightElement(language, id) {
     const codeContainer = document.getElementById(id);
     const codeContent = codeContainer.innerHTML;

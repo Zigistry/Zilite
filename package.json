@@ -1,26 +1,38 @@
 {
     "name": "zilite",
+    "version": "0.0.289",
+    "description": "An easy-to-use syntax highlighter for the web.",
     "author": {
         "name": "Rohan Vashisht",
         "email": "rohanvashisht@zigistry.dev"
     },
     "keywords": [
         "syntax",
-        "highlight"
-    ],
-    "types": "src/zilite.d.ts",
-    "files": [
-        "src/index.js",
-        "src/language/bash.mjs",
-        "src/language/zig.mjs",
-        "src/main.mjs",
-        "src/language/diff.mjs",
-        "src/zilite.d.ts"
+        "highlight",
+        "typescript",
+        "highlighter"
     ],
     "license": "AGPL-3.0-only",
-    "description": "An easy to use syntax highlighter for the web.",
-    "readme": "README.md",
-    "main": "src/index.js",
-    "version": "v0.0.288",
-    "type":"module"
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "prepare": "npm run build",
+        "test": "echo \"No tests specified\" && exit 0"
+    },
+    "devDependencies": {
+        "typescript": "^5.5.4"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/your-username/zilite.git"
+    },
+    "bugs": {
+        "url": "https://github.com/your-username/zilite/issues"
+    },
+    "homepage": "https://github.com/your-username/zilite#readme",
+    "type": "module"
 }
