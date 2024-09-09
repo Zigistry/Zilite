@@ -1,4 +1,4 @@
-import { LanguagePattern } from "../types/types";
+import { LanguagePattern } from "../types/types.mjs";
 
 export const diff:LanguagePattern[] = [
     { regex: /"(?:[^"\\]|\\.)*"/g, className: 'string' },

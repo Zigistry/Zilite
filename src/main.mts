@@ -1,4 +1,4 @@
-import { LanguagePattern } from "./types/types";
+import { LanguagePattern } from "./types/types.mjs";
 
 export function highlight(language: LanguagePattern[], content: string) {
     content = content.replace(/ /g, "±±§§±±§§")
