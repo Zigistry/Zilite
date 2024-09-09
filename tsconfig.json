@@ -6,7 +6,6 @@
       "outDir": "./dist",                         // Output folder for compiled JavaScript
       "strict": true,                             // Enable strict type-checking options
       "esModuleInterop": true,                    // Compatibility with CommonJS modules
-      "skipLibCheck": true,                       // Skip type checking of declaration files
       "forceConsistentCasingInFileNames": true,   // Enforce consistent file naming
       "moduleResolution": "node",                 // Resolve module imports
       "isolatedModules": true,                    // Ensure each file can be safely transpiled
