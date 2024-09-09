@@ -8,19 +8,19 @@ interface LanguagePattern {
     className: string;
 }
 declare module 'zilite/src/language/zig.mjs' {
-    export declare const zig: LanguagePattern[];
+    export const zig: LanguagePattern[];
 };
 declare module 'zilite/src/language/bash.mjs' {
-    export declare const bash: LanguagePattern[];
+    export const bash: LanguagePattern[];
 };
 declare module 'zilite/src/main.mjs' {
-    export declare function highlight(language: LanguagePattern[], content: string): string;
-    export declare function highlightElements(language: LanguagePattern[], className: string): void;
-    export declare function highlightElement(language: LanguagePattern[], id: string): void;
-    export declare function zon2json(input: string): string;
+    export function highlight(language: LanguagePattern[], content: string): string;
+    export function highlightElements(language: LanguagePattern[], className: string): void;
+    export function highlightElement(language: LanguagePattern[], id: string): void;
+    export function zon2json(input: string): string;
 };
 declare module 'zilite/src/language/diff.mjs'{
-    export declare const diff: LanguagePattern[];
+    export const diff: LanguagePattern[];
 };
 /**
  * Other function declarations for highlight, highlightElements, highlightElement, etc.
