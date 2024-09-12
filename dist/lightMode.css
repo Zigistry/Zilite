@@ -1,0 +1,96 @@
+/* This offers a basic syntax highlighting for dark modes */
+
+.comment {
+	color: rgb(105, 105, 105);
+}
+
+.comment>* {
+	color: rgb(105, 105, 105) !important;
+}
+
+.comment>*>* {
+	color: rgb(105, 105, 105) !important;
+}
+
+.comment>*>*>* {
+	color: rgb(105, 105, 105) !important;
+}
+
+.comment>*>*>*>* {
+	color: rgb(105, 105, 105) !important;
+}
+
+.string {
+	color: rgb(9, 89, 9);
+}
+
+.string>* {
+	color: rgb(9, 89, 9) !important;
+}
+
+.string>*>* {
+	color: rgb(9, 89, 9) !important;
+}
+
+.string>*>*>* {
+	color: rgb(9, 89, 9) !important;
+}
+
+.string>*>*>*>* {
+	color: rgb(9, 89, 9) !important;
+}
+
+.char {
+	color: red;
+}
+
+.keyword2 {
+	color: rgb(116, 84, 26);
+	font-weight: bold;
+}
+
+.keyword {
+	color: rgb(255, 96, 60);
+	font-weight: bold;
+}
+
+.boolean {
+	color: darkorange;
+}
+
+.type {
+	color: rgb(25, 86, 114);
+}
+
+.number {
+	color: rgb(34, 61, 106);
+}
+
+.function {
+	color: rgb(58, 34, 76);
+}
+
+.operators {
+	color: rgb(24, 64, 64);
+}
+
+.diff-add{
+	background-color: rgba(13, 44, 13, 0.467);
+}
+
+.diff-subtract{
+	background-color: rgba(76, 22, 22, 0.467);
+}
+
+.basic-code-block {
+	background-color: #ffffffdb;
+	color: rgb(163, 86, 27);
+}
+
+.nice-code-block {
+	background-color: #ffffffdb;
+	color: rgb(163, 86, 27);
+	font-size: 10px;
+	padding: 5px;
+	font-family: monospace;
+}
