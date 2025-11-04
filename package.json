@@ -19,7 +19,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsc && esbuild ./dist/**/*.{js,mjs}  --outdir=./dist --minify --format=esm --allow-overwrite",
+    "build": "tsc  && mkdir -p dist/styles && cp -r src/styles/* dist/styles/ && esbuild ./dist/**/*.{js,mjs,css}  --outdir=./dist --minify --format=esm --allow-overwrite",
     "format": "prettier . --write",
     "test": "echo \"No tests specified\" && exit 0"
   },
