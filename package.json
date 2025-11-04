@@ -1,38 +1,40 @@
 {
-    "name": "zilite",
-    "version": "0.0.4",
-    "description": "An easy-to-use syntax highlighter for the web.",
-    "author": {
-        "name": "Rohan Vashisht",
-        "email": "rohanvashisht@zigistry.dev"
-    },
-    "keywords": [
-        "syntax",
-        "highlight",
-        "typescript",
-        "highlighter"
-    ],
-    "license": "AGPL-3.0-only",
-    "main": "dist/index.js",
-    "types": "dist/index.d.ts",
-    "files": [
-        "dist"
-    ],
-    "scripts": {
-        "build": "tsc",
-        "prepare": "npm run build",
-        "test": "echo \"No tests specified\" && exit 0"
-    },
-    "devDependencies": {
-        "typescript": "^5.5.4"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/your-username/zilite.git"
-    },
-    "bugs": {
-        "url": "https://github.com/your-username/zilite/issues"
-    },
-    "homepage": "https://github.com/your-username/zilite#readme",
-    "type": "module"
+  "name": "zilite",
+  "version": "0.0.5",
+  "description": "An easy-to-use syntax highlighter for the web.",
+  "author": {
+    "name": "Rohan Vashisht",
+    "email": "rohanprogrammer1@gmail.com"
+  },
+  "keywords": [
+    "syntax",
+    "highlight",
+    "typescript",
+    "highlighter"
+  ],
+  "license": "AGPL-3.0-only",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && esbuild ./dist/**/*.{js,mjs}  --outdir=./dist --minify --format=esm --allow-overwrite",
+    "format": "prettier . --write",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "esbuild": "^0.25.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zigistry/zilite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zigistry/zilite/issues"
+  },
+  "homepage": "https://github.com/zigistry/zilite#readme",
+  "type": "module"
 }

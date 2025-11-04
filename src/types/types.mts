@@ -1,4 +1,4 @@
 export interface LanguagePattern {
-    regex: RegExp;
-    className: string;
+  regex: RegExp;
+  className: string;
 }

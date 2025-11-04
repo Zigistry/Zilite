@@ -11,6 +11,7 @@
 - Is extremely small size.
 
 ## How to use?
+
 Just see the following example:
 
 ### For basic HTML:
@@ -19,22 +20,23 @@ Just see the following example:
 <!DOCTYPE html>
 
 <html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/zilite@0.0.25/src/styles/darkMode.css"
+    />
+  </head>
 
-<head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/zilite@0.0.25/src/styles/darkMode.css" />
-</head>
-
-<body>
+  <body>
     <div class="language-zig nice-code-block">
-        const zilite:[]const u8 = "Syntax Highlighter";
+      const zilite:[]const u8 = "Syntax Highlighter";
     </div>
     <script type="module">
-        import { highlightElements } from "https://cdn.jsdelivr.net/npm/zilite@0.0.25";
-        import { zig } from "https://cdn.jsdelivr.net/npm/zilite@0.0.25/src/language/zig.js";
-        highlightElements(zig, "language-zig");
+      import { highlightElements } from "https://cdn.jsdelivr.net/npm/zilite@0.0.25";
+      import { zig } from "https://cdn.jsdelivr.net/npm/zilite@0.0.25/src/language/zig.js";
+      highlightElements(zig, "language-zig");
     </script>
-</body>
-
+  </body>
 </html>
 ```
 
